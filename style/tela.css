@@ -1,0 +1,63 @@
+:root {
+    --background-color: #fbfff5;
+    --background-form: #c9cec4;
+    --background-bottom: #979d92;
+    --cor-do-texto: #d7e1e2;
+    --font-texto: "Montserrat", sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--cor-do-texto);
+    gap: 32px;
+}
+
+header {
+    padding: 20px;
+    text-align: center;
+}
+
+.titulo-texto {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-family: var(--font-texto);
+    font-weight: 500;
+    padding: 32px;
+}
+
+.container-formulario {
+    background-color: var(--background-form);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    gap: 16px;
+    border-radius: 10px;
+    height: 100%;
+    padding: 40px 16px;
+    margin: 0 auto;
+    width: 30em;
+}
+
+.container-botao {
+    display: flex;
+    gap: 32px;
+    justify-content: center;
+}
+
+.botao {
+    text-decoration: none;
+    background-color: var(--background-bottom);
+    color: var(--cor-do-texto);
+    font-family: var(--font-texto);
+    padding: 16px;
+    border-radius: 16px;
+    border: 1px solid var(--background-color);
+}

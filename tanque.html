@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/recipiente.css">
+    <title>Tanque de Água</title>
+</head>
+<body>
+    <div class="reservatorios">
+        <div class="tank">
+            <div class="label">0ml</div>
+            <div class="water" id="water"></div>
+        </div>
+
+        <div class="tank">
+            <div class="label1">0ml</div>
+            <div class="food" id="food"></div>
+        </div>
+    </div>
+
+    <div class="button-container">
+        <button onclick="aumentarNivel('water', 'label')">Aumentar Água</button>
+        <button onclick="diminuirNivel('water', 'label')">Diminuir Água</button>
+        <button onclick="aumentarNivel('food', 'label1')">Aumentar Comida</button>
+        <button onclick="diminuirNivel('food', 'label1')">Diminuir Comida</button>
+    </div>
+
+    <script src="./script/recipiente.js"></script>
+</body>
+</html>
